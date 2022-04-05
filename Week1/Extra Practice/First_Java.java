@@ -9,7 +9,7 @@ public class First_Java{
     }
     
     private static void age(int age) {
-        System.out.println(" I am " + age + " years old");
+        System.out.println("I am " + age + " years old");
     }
 
     private static void home(String home) {
