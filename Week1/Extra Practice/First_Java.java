@@ -4,24 +4,22 @@ public class First_Java{
         age(30);
         home("Great Falls");
     }
-    private static void name(String name) {
+    public static void name(String name) {
         System.out.println("My name is " + name);
     }
     
-    private static void age(int age) {
+    public static void age(int age) {
         System.out.println("I am " + age + " years old");
     }
 
-    private static void home(String home) {
+    public static void home(String home) {
         System.out.println("I am from " + home);
     }
 
-
-
-    {
-    // public static void name(String name) {
+    
+    // public static void test(String name) {
     //     System.out.println("My name is " + name);
     // }
-    }
+    
 }
 
