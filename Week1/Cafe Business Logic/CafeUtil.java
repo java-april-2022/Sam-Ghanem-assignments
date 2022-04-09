@@ -30,12 +30,25 @@ public class CafeUtil {
             
             
         }
+        
+        // Given an ArrayList of menu items (strings), print out each index and menu item. 
+        // Sample output given an  ArrayList with the items
+        // "drip coffee",  "cappuccino",  "latte" and  "mocha"
     public void displayMenu(ArrayList<String> menuItems){
         for (int idx = 0; idx < menuItems.size(); idx++){
             System.out.printf("%s %s \n",idx,menuItems.get(idx));
-
         }
     }
+    
+    // addCustomer(ArrayList<String> customers)
+    // Inside this method:
+    // Print this string to the console: "Please enter your name:"
+    // Then add this line of code to get user input from the terminal and store it in the variable  userName: 
+    // String userName = System.console().readLine();copy
+    // Next print the userName to the console, saying "Hello, [user name here]!"
+    // Next print "There are ___ people in front of you" using the number for how many people are ahead of them (how many items already in the array)
+    // Then, add the customer's name to the given customers list. And print the list.
+    // No need to return anything.
     public void addCustomer(ArrayList<String> customers){
         System.out.println("Please enter yout name!!!!");
         String userName = System.console().readLine();
@@ -43,8 +56,5 @@ public class CafeUtil {
         System.out.printf("There is %s customers ahead of you.",customers.size());
         customers.add(userName);
         
-
-
     }
-
 }
