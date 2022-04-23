@@ -11,7 +11,7 @@
 </head>
 <body>
 <h1>Here is your Omukuji</h1>
-<p class="bg-primary text-dark ">${result} </p><br>
+<p class="bg-primary text-dark ">${result} </p>
 <a href="/">Go back to homepages</a>
 
 </body>

@@ -34,7 +34,7 @@ public class HomeController {
 			HttpSession session
 			) {
 		String result = String.format("In %s years,you will live in %s with %s as your roommate , "
-				+ "%s /ns. The next time you see a %s,"
+				+ "%s. The next time you see a %s,"
 				+ " you will have good luck."
 				+ " Also, %s.", number,city,name,job,animal,nice);
 		
