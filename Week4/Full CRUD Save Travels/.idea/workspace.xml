@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a057162-23fc-4ddf-a94f-47d2a08bf4e6" name="Changes" comment="" />
+    <list default="true" id="7a057162-23fc-4ddf-a94f-47d2a08bf4e6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Week5/Dojos and Ninjas/DojoNinja/src/main/webapp/WEB-INF/newninja.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5/Dojos and Ninjas/DojoNinja/src/main/webapp/WEB-INF/newninja.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +23,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/yambo/OneDrive/Desktop/CodingWorkingProjects/Java-april-2022/Sam-Ghanem-assignments/Week4/Full CRUD Save Travels"
+    "last_opened_file_path": "C:/Users/yambo/OneDrive/Desktop/CodingWorkingProjects/Java-april-2022/Sam-Ghanem-assignments/Week5/Extra Practice/LoginAndReg"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -39,6 +41,7 @@
       <updated>1651267421216</updated>
       <workItem from="1651267422449" duration="27000" />
       <workItem from="1651781620571" duration="87000" />
+      <workItem from="1652059203244" duration="69000" />
     </task>
     <servers />
   </component>

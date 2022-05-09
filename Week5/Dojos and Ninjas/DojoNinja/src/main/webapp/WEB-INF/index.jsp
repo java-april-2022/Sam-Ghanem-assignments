@@ -1,56 +1,52 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%><%@ taglib prefix="form"
-	uri="http://www.springframework.org/tags/form"%><%@ taglib prefix="c"
-	uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
-<!-- CSS only -->
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-	crossorigin="anonymous">
-<link href="https://unpkg.com/nes.css@latest/css/nes.min.css"
-	rel="stylesheet" />
+
+
+
+
 <meta charset="ISO-8859-1">
 <title>Dojos and Ninjas</title>
 </head>
 <body>
-	<div class="bg-dark">
+	
 		<h1>
 			<span class="nes-text nes-balloon ">New Gym</span>
 		</h1>
-		<form:form action="/dojo/new" method="post"  modelAttribute="newdojo">
+		<form:form action="/dojo/new" method="post" modelAttribute="newdojo">
 			<div class="nes-field nes-balloon ">
 				<form:label path="name" for="name_field">ADD A Gym</form:label>
-				<form:errors path="name" /> 
-				 <form:input  path="name" type="text" id="name_field" class="nes-text is-success nes-input nes-pointer "/>
+				<form:errors path="name" />
+				<form:input path="name" type="text" id="name_field"
+					class="nes-text is-success nes-input  " />
 			</div>
 			<div>
-				
-				<input type="submit" value="Create" class="nes-btn is-success nes-pointer"/>
-				<a href="/ninja/new" >Become a Trainer</a>
-				
+
+				<input type="submit" value="Create"
+					class="nes-btn is-success " /> <a href="/ninja/new">Become
+					a Trainer</a>
+
 			</div>
 		</form:form>
-		
-		<div class="nes-table-responsive">
-			<table class="nes-table is-bordered is-dark text-light">
-				<thead>
-					<tr>
-						<th>Gyms</th>
-					</tr>
-				</thead>
-				<tbody>
+
+
+		<table class="nes-table is-bordered is-dark text-light">
+			<thead>
+				<tr>
+					<th>Gyms</th>
+				</tr>
+			</thead>
+			<tbody>
 				<c:forEach var="Gyms" items="${allDojos}">
 					<tr>
 						<td><a href="/showdojo/${Gyms.id }">${Gyms.name }</a></td>
 					</tr>
-					</c:forEach>
-				</tbody>
-			</table>
-		</div>
-	</div>
+				</c:forEach>
+			</tbody>
+		</table>
+	
 </body>
 </html>

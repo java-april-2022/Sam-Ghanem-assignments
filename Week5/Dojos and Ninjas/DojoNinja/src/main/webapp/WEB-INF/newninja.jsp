@@ -59,7 +59,7 @@
 			</div>
 
 		</form:form>
-		<a href="/home" >go home</a>
+		<a href="/" >go home</a>
 
 	</div>
 </body>
